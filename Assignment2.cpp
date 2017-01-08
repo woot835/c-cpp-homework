@@ -15,6 +15,8 @@ void createStatesArr(int states[rows][columns]);
 void evolveCellStates(int states[rows][columns]);
 int aliveNeighborsCount(int states[rows][columns], int x, int y);
 
+// Press F to start the actual game
+
 int main()
 {
 	int tileWidth = windowWidth / columns;
